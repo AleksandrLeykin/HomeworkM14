@@ -1,8 +1,12 @@
 #include <iostream>
 
+#include "beginningWord.h"
+
 int main()
 {	
-	std::cout << "Hello!" << std::endl;	
+	setlocale(LC_ALL, "ru");
+		
+	inputtWords();
 	
 	return 0;
 }
